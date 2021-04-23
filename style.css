@@ -50,15 +50,20 @@
     padding: 10px;
     width: 75%;
     margin: 0 auto;
+    margin-top: 10px;
     text-align: center;
 }
 
-.flex-box-container-3{
-    border: 1px solid blue ;
+.flex-box-rps{
+    border: 1px solid black ;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
     padding: 10px;
     margin: 10px;
+}
+
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgb(3, 90, 252);
 }
