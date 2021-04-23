@@ -66,4 +66,10 @@
 
 .flex-box-rps img:hover {
     box-shadow: 0px 10px 50px rgb(3, 90, 252);
+    padding: 10px;
+
+}
+
+.flex-box-rps img {
+    padding: 10px;
 }
