@@ -26,11 +26,11 @@ function rpsGame(yourChoice){
     humanChoice = yourChoice.id ;
     botChoice = numberToChoice(randToRpsInt());
     //alert(botChoice);
-    console.log('Computer Choice',botChoice)
+    //console.log('Computer Choice',botChoice)
     result = decideWinner(humanChoice,botChoice); // [0,1] Human Lost , Bot Won 
-    console.log(result);
+   // console.log(result);
     message = finalMessage(result); // "{ message : "You Won " , 'colr' : green )
-    console.log(message);
+   // console.log(message);
     rpsFrontEnd(yourChoice.id,botChoice,message);
 }
 
