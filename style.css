@@ -1,4 +1,4 @@
-.container-1{
+.container-1 ,.container-2 ,.container-3{
     border: 1px solid black;
     padding: 10px;
     width: 75%;
@@ -17,14 +17,6 @@
 .flex-box-container-1 div {
     padding: 10px;
     border: 1px solid black;
-}
-.container-2{
-    border: 1px solid red;
-    padding: 10px;
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 10px;
 }
 .flex-box-container-2{
     border: 1px solid blue ;
@@ -45,14 +37,6 @@
 
 /* container 3 */
 
-.container-3 {
-    border: 1px solid black;
-    padding: 10px;
-    width: 75%;
-    margin: 0 auto;
-    margin-top: 10px;
-    text-align: center;
-}
 
 .flex-box-rps{
     border: 1px solid black ;
