@@ -90,9 +90,9 @@ function rpsFrontEnd(humanImageChoice, botImageChoice, finalMessage){
     document.getElementById('flex-box-rps-div').appendChild(messageDiv);
     document.getElementById('flex-box-rps-div').appendChild(botDiv);
 
-    // var butDiv = document.createElement('button');
-    // butDiv.innerHTML = "<button class='btn btn-danger' onclick='rpsGame()'>Reset</button>"
-    // document.getElementById('flex-box-rps-div').appendChild(butDiv);
+    var butDiv = document.createElement('button');
+    butDiv.innerHTML = "<button class='btn btn-danger'><a href='https://mhemanthkmr.github.io/JavascriptP1/'>Reset</a></button>"
+    document.getElementById('flex-box-rps-div').appendChild(butDiv);
     
 
 }
